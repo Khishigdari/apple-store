@@ -606,11 +606,6 @@ footer {
   margin-bottom: 24px;
 }
 
-.footer-btn {
-  margin-left: 8px;
-  align-items: center;
-}
-
 .btn {
   padding: 10px 12px;
   border: 1px solid #1d1d1f;
@@ -619,7 +614,12 @@ footer {
   margin-bottom: 100px;
 }
 
-.footer-link {
+.button-link {
   text-decoration: none;
   color: #1d1d1f;
+}
+
+.footer-btn-icon {
+  margin-left: 8px;
+  align-items: center;
 }
