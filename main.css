@@ -4,9 +4,9 @@ body {
   min-width: 1024px;
   background-color: #f5f5f7;
 }
-/* hero */
+/* HERO */
 
-/* nav bar */
+/* NAV BAR */
 ul {
   list-style-type: none;
   display: flex;
@@ -45,7 +45,7 @@ li {
   gap: 24px;
 }
 
-/* ad */
+/* AD */
 .ad {
   font-family: inter;
   font-size: 14px;
@@ -66,7 +66,7 @@ li {
   height: 75px;
 }
 
-/* hero-title */
+/* HERO-TITLE */
 .hero-title-container {
   display: flex;
   justify-content: space-between;
@@ -136,7 +136,7 @@ li {
   color: #0066cc;
 }
 
-/* hero list */
+/* HERO LIST */
 
 .hero-list {
   display: flex;
