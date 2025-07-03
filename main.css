@@ -14,6 +14,11 @@ header {
   justify-content: space-between;
   height: 48px;
   background-color: rgba(245, 245, 247, 0.8);
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .menu {
@@ -414,6 +419,13 @@ section::-webkit-scrollbar {
   border-radius: 18px;
   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
   flex-shrink: 0;
+  transition: all 0.5s;
+}
+
+.scroll-box:hover {
+  /* width: 490px;
+  height: 510px; */
+  transform: scale(1.02);
 }
 
 .scroll-box-image-1 {
@@ -509,9 +521,10 @@ section::-webkit-scrollbar {
   gap: 20px;
   padding-left: 140px;
   box-sizing: border-box;
-  overflow: scroll;
+  overflow-x: scroll;
   scroll-snap-type: x mandatory;
   margin-bottom: 40px;
+  height: 515px;
 }
 
 .scroll-5::-webkit-scrollbar {
@@ -521,6 +534,11 @@ section::-webkit-scrollbar {
 .scroll-5-box {
   width: 480px;
   position: relative;
+  transition: all 0.5s;
+}
+
+.scroll-5-box:hover {
+  transform: scale(1.02);
 }
 
 .scroll-5-box-text {
@@ -568,6 +586,7 @@ section::-webkit-scrollbar {
   overflow: scroll;
   scroll-snap-type: x mandatory;
   margin-bottom: 60px;
+  height: 515px;
 }
 
 .scroll-6::-webkit-scrollbar {
@@ -575,8 +594,14 @@ section::-webkit-scrollbar {
 }
 
 .scroll-6-box {
+  /* margin-top: 5px; */
   width: 400px;
   position: relative;
+  transition: all 0.5s;
+}
+
+.scroll-6-box:hover {
+  transform: scale(1.02);
 }
 
 .scroll-6-image {
